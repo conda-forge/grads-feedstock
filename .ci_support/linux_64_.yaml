@@ -1,0 +1,52 @@
+DOCKER_PLATFORM:
+- linux/amd64
+c_compiler:
+- gcc
+c_compiler_version:
+- '15'
+c_stdlib:
+- sysroot
+c_stdlib_version:
+- '2.17'
+cairo:
+- '1'
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+curl:
+- '8'
+docker_image:
+- quay.io/condaforge/linux-anvil-x86_64:alma10
+freetype:
+- '2'
+geotiff:
+- '1.7'
+hdf4:
+- 4.2.15
+hdf5:
+- 1.14.6
+jasper:
+- '4'
+libjpeg_turbo:
+- '3'
+libnetcdf:
+- 4.10.1
+libpng:
+- '1.6'
+libtiff:
+- '4.7'
+libxcb:
+- '1'
+libxml2:
+- '2.15'
+ncurses:
+- '6'
+python_min:
+- '3.11'
+readline:
+- '8'
+target_platform:
+- linux-64
+zlib:
+- '1'

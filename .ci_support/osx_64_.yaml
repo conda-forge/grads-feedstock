@@ -1,0 +1,52 @@
+MACOSX_SDK_VERSION:
+- '11.0'
+c_compiler:
+- clang
+c_compiler_version:
+- '21'
+c_stdlib:
+- macosx_deployment_target
+c_stdlib_version:
+- '11.0'
+cairo:
+- '1'
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+curl:
+- '8'
+freetype:
+- '2'
+geotiff:
+- '1.7'
+hdf4:
+- 4.2.15
+hdf5:
+- 1.14.6
+jasper:
+- '4'
+libjpeg_turbo:
+- '3'
+libnetcdf:
+- 4.10.1
+libpng:
+- '1.6'
+libtiff:
+- '4.7'
+libxcb:
+- '1'
+libxml2:
+- '2.15'
+macos_machine:
+- x86_64-apple-darwin13.4.0
+ncurses:
+- '6'
+python_min:
+- '3.11'
+readline:
+- '8'
+target_platform:
+- osx-64
+zlib:
+- '1'
