@@ -14,7 +14,7 @@ source:
       - platform-build-fixes.patch.txt
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - staging:
@@ -77,7 +77,7 @@ outputs:
       name: grads
     inherit: grads-build
     build:
-      number: 0
+      number: 1
       files:
         - if: unix
           then:
@@ -165,7 +165,7 @@ outputs:
   - package:
       name: gradspy
     build:
-      number: 0
+      number: 1
       noarch: python
       script:
         - if: unix
